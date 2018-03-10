@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    outline: none;
+}
+
+.header {
+    text-align: right;
+    display: inline-block;
+    width: 100%;
+    padding: 20px;
+}
+
+.header img{
+    float: left;
+    height: 50px;
+}
+
+.header a{
+    margin: 12px;
+    text-decoration: none;
+    color: rgb(0, 0, 0);
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 6px;
+}
+
+.header a:hover,
+.header a:target{
+    color: white;
+    background: #7e8081;
+}
+
+.header .links {
+    margin-top: 15px;
+}
+
+.banner {
+    background-image: url(img/banner1.jpg);
+    background-size: cover;
+    background-color: #006eaed7;
+    background-blend-mode: multiply;
+    color: #fff;
+    background-position: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    display: inline-block;
+    width: 100%;
+}
+
+.banner h1 {
+    padding-left: 20px;
+    padding-top: 130px;
+    font-size: 55px;
+    font-weight: 900;
+}
+
+.banner p {
+    padding-left: 20px;
+    font-size: 20px;
+    font-weight: 300;
+}
+
+.form {
+    background-color:rgba(255,255,255, 0.8); 
+    width: 400px;
+    color:#000;
+    padding: 20px;
+    float: right;
+    margin-right: 40px;
+    border-radius: 6px;
+}
+
+.form .linha {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    display: inline-block;
+    width: 100%;
+}
+
+.form input[type="text"] {
+    padding: 10px;
+    width:100%;
+}
+
+.form .agrupado input[type="date"] {
+    padding: 10px;
+    width:50%;
+}
+
+.form .agrupado input[type="number"] {
+    padding: 10px;
+    width:50%;
+}
+
+.form .agrupado h7 {
+    width: 100%;
+    float: left;
+    margin-left: 5px;
+}
+
+.form .agrupado input {
+    width: 50%;
+    float: left;
+    margin-right: 10px;
+}
+
+
+.form .agrupado input:last-child {
+    width: calc(50% - 10px);
+    margin-right: 0;
+}
+
+.form button {
+    width: 100%;
+    padding: 10px;
+    background-color: #fa6900;
+    color: #fff;
+    border: 0;
+    border-radius: 6px;
+}
+
+.box {
+    width: 50%;
+    float: left;
+    text-align: center;
+    padding: 40px;
+}
+
+.destinos  img{
+    padding-top: 12px;
+    padding-bottom: 3px;
+    width: 100%;
+    float:left;
+}
+
+.box2  {
+    width: 25%;
+    float: left;
+    text-align: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    padding-right: 20px;
+    background-color: rgba(146, 137, 137, 0.774);
+    border: 10px solid rgb(255, 255, 255);
+    border-radius: 20px; 
+}
+
+.destinos button {
+    width: 40%;
+    padding: 10px;
+    background-color: #fa6900;
+    color: rgb(255, 255, 255);
+    border: 0;
+    border-radius: 6px;
+}
+
+.destinos p {
+    padding-top: 3px;
+    padding-bottom: 10px
+}
